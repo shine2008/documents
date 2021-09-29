@@ -9,7 +9,7 @@
 ## 前提条件
 在开始运行示例项目之前，请确保您已完成以下操作：
 
-- 在云信控制台创建应用，并获取对应的 AppKey。
+- 在云信控制台创建应用，并获取对应的 AppKey，可参考[本文](https://github.com/netease-kit/documents/blob/main/云信控制平台/应用创建和服务开通.md)。
 - 为此应用开通以下相关服务与抄送：
   - 产品服务：音视频通话 2.0、IM 专业版、聊天室、信令、互动白板、云端录制、点播。
   - 产品功能：
@@ -34,7 +34,8 @@
 
 ## 运行示例项目
 
-1. 在 GitHub 的 [WisdomEducation](https://github.com/netease-kit/WisdomEducation) 示例项目 下载 Demo 源码工程。
+1. 获取示例项目。
+在智慧云课堂[示例代码](https://netease.im/edu#page4)页面下载需要体验的示例项目或 示例代码 源码工程。
 
 2. 在 Podfile 所在文件夹中打开终端，执行命令 `pod install`。
 
@@ -49,7 +50,11 @@
    | appId         | 应用的 AppId。可以在网易云信控制台中查看。 |
    | authorization | 调用服务端接口时，请求头中的校验参数。     |
 
-   **说明：**如果仅需要本地跑通示例项目，您可以使用[智慧云课堂体验账号](https://github.com/netease-kit/WisdomEducation/tree/main/Wisdom_Education_Docs)。体验账号的课堂时长限制为 30 分钟。
+> 说明：
+> 如果仅需要本地跑通示例项目，您可以使用[网易云信体验账号](https://github.com/netease-kit/WisdomEducation/tree/main/Wisdom_Education_Docs/智慧云课堂体验账号.md)。体验账号的课堂时长限制为 30 分钟。
+   
+5. 选中设备直接运行，即可体验 演示App。     
+   <image width="25%" src="../Images/enterroom.png">
 
 ## 示例项目结构
 | 文件夹/文件               | 说明              |
